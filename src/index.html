@@ -10,36 +10,62 @@
 </head>
 
 <body>
-    <header>
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <img src="images/profile-pic.gif" class="profile-image col-narrow">
             <div class="col-wide">
                 <h1>Your Name</h1>
                 <h2>Job title or tagline</h2>
                 <p>Add your profile summary here. You can have several paragraphs or add links.
-                        Add your profile summary here. You can have several paragraphs or add links
-                        Add your profile summary here. You can have several paragraphs or add links
-                        Add your profile summary here. You can have several paragraphs or add links
-                        Add your profile summary here. You can have several paragraphs or add links
+                    Add your profile summary here. You can have several paragraphs or add links
+                    Add your profile summary here. You can have several paragraphs or add links
+                    Add your profile summary here. You can have several paragraphs or add links
+                    Add your profile summary here. You can have several paragraphs or add links
                 </p>
             </div>
         </div>
+        <a href="resume.pdf" class="btn download" download>Download PDF</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
                 <!-- Job Details: copy this whole block to add more jobs -->
                 <div class="col-narrow">
-                    <h3>Job title</h3>
-                    <p>Company Name</p>
+                    <h3>First Job</h3>
+                    <p class="uppercase">Company Name</p>
                     <p>Date at job</p>
                 </div>
                 <!-- Add as many paragraphs as you need. -->
-                <div class="col-wide">
+                <div class="col-wide job-description">
+                    <p>Job summary.</p>
+
+                    <!-- This list can be deleted if you don't want to use it. -->
+                    <p>Optional list:</p>
+                    <ul>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for</li>
+                    </ul>
+                </div>
+                <!-- end of Job Details block. -->
+                <!-- Job Details: copy this whole block to add more jobs -->
+                <div class="col-narrow">
+                    <h3>Second Job</h3>
+                    <p class="uppercase">Company Name</p>
+                    <p>Date at job</p>
+                </div>
+                <!-- Add as many paragraphs as you need. -->
+                <div class="col-wide job-description">
                     <p>Job summary.</p>
 
                     <!-- This list can be deleted if you don't want to use it. -->
@@ -57,12 +83,19 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
                 <!-- School details: copy this whole block to add more schools. -->
-                <h3>School name, year you attended</h3>
+                <h3>First School name, year you attended</h3>
+                <p>Designation received</p>
+
+                <!-- Add as many paragraphs as you need. -->
+                <p>Summary.</p>
+                <!-- End of school details. -->
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>Second School name, year you attended</h3>
                 <p>Designation received</p>
 
                 <!-- Add as many paragraphs as you need. -->
@@ -73,7 +106,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
 
 
